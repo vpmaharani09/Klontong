@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:klontong/core/core.dart';
+import 'package:klontong/gen/assets.gen.dart';
 import 'package:klontong/gen/colors.gen.dart';
 
 class ProductListScreen extends StatelessWidget {
@@ -18,7 +19,19 @@ class ProductListScreen extends StatelessWidget {
         ),
       ),
       body: Column(
-        children: [],
+        children: [
+          TextField(
+            decoration: InputDecoration(
+              hintText: 'Search product',
+              hintStyle: AppTextStyle.textStyle14Fw600(
+                color: ColorName.textSecondary,
+              ),
+              prefixIcon: Assets.icons.icSearch.svg(
+                
+              ),
+            ),
+          )
+        ],
       ),
     );
   }
