@@ -14,20 +14,47 @@ import 'package:flutter/services.dart';
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// File path: assets/icons/ic_camera_linear.svg
+  SvgGenImage get icCameraLinear =>
+      const SvgGenImage('assets/icons/ic_camera_linear.svg');
+
+  /// File path: assets/icons/ic_chevron_bottom.svg
+  SvgGenImage get icChevronBottom =>
+      const SvgGenImage('assets/icons/ic_chevron_bottom.svg');
+
+  /// File path: assets/icons/ic_chevron_right.svg
+  SvgGenImage get icChevronRight =>
+      const SvgGenImage('assets/icons/ic_chevron_right.svg');
+
   /// File path: assets/icons/ic_close_circle.svg
   SvgGenImage get icCloseCircle =>
       const SvgGenImage('assets/icons/ic_close_circle.svg');
 
+  /// File path: assets/icons/ic_gallery_linear.svg
+  SvgGenImage get icGalleryLinear =>
+      const SvgGenImage('assets/icons/ic_gallery_linear.svg');
+
   /// File path: assets/icons/ic_search.svg
   SvgGenImage get icSearch => const SvgGenImage('assets/icons/ic_search.svg');
+
+  /// File path: assets/icons/search.svg
+  SvgGenImage get search => const SvgGenImage('assets/icons/search.svg');
 }
 
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/ic_example_product.png
+  AssetGenImage get icExampleProduct =>
+      const AssetGenImage('assets/images/ic_example_product.png');
+
   /// File path: assets/images/img_logo_store.png
   AssetGenImage get imgLogoStore =>
       const AssetGenImage('assets/images/img_logo_store.png');
+
+  /// File path: assets/images/img_shopping_logo.png
+  AssetGenImage get imgShoppingLogo =>
+      const AssetGenImage('assets/images/img_shopping_logo.png');
 }
 
 class Assets {
@@ -62,7 +89,7 @@ class AssetGenImage {
     bool matchTextDirection = false,
     bool gaplessPlayback = false,
     bool isAntiAlias = false,
-    String? package = 'klontong',
+    String? package,
     FilterQuality filterQuality = FilterQuality.low,
     int? cacheWidth,
     int? cacheHeight,
@@ -97,7 +124,7 @@ class AssetGenImage {
 
   String get path => _assetName;
 
-  String get keyName => 'packages/klontong/$_assetName';
+  String get keyName => _assetName;
 }
 
 class SvgGenImage {
@@ -109,7 +136,7 @@ class SvgGenImage {
     Key? key,
     bool matchTextDirection = false,
     AssetBundle? bundle,
-    String? package = 'klontong',
+    String? package,
     double? width,
     double? height,
     BoxFit fit = BoxFit.contain,
