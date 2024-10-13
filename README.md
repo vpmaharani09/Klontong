@@ -2,6 +2,9 @@
 
 **Klontong** is a simple and efficient CRUD (Create, Read, Update, Delete) application designed to manage products in grocery stores and supermarkets. The app provides a seamless interface for adding, updating, listing, and deleting products, offering an easy way to keep track of inventory.
 
+## Sample APK 
+- [Here](https://github.com/vpmaharani09/Klontong/blob/main/klontong.apk)
+
 ## Features
 
 - **Product Management**: Add new products, update product details, view product lists, and delete items no longer in stock.
