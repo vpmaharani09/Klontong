@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="splash_color">#BAE6FF</color>
+    <color name="primary">#323C64</color>
+    <color name="text-primary">#181725</color>
+    <color name="text-secondary">#7C7C7C</color>
+    <color name="background-textfield">#F2F3F2</color>
+    <color name="divider">#E2E2E2</color>
+    <color name="gray">#EBEBEB</color>
+    <color name="blue-pastel">#E9F2FF</color>
+    <color name="red">#C2283C</color>
+    <color name="hint-color">#B1B1B1</color>
+    <color name="white-50">#FCFCFD</color>
+    <color name="border-textfield">#E4E4E4</color>
+    <color name="off-white">#FAFAFA</color>
+    <color name="colorShimmer">#E7E5E5</color>
+    <color name="pink">#FFF2F2</color>
+    <color name="F7F7F7">#F7F7F7</color>
 </resources>
